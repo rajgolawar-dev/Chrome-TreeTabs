@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "Organize suas abas como uma árvore visual — abas filhas, ramificações recolhíveis, arrastar e soltar."
+  },
+  "logoLabel": {
+    "message": "Tree Tabs"
+  },
+  "btnNewTab": {
+    "message": "Nova aba"
+  },
+  "btnGroupByDomain": {
+    "message": "Agrupar abas por domínio (A–Z)"
+  },
+  "btnCollapseAll": {
+    "message": "Recolher tudo"
+  },
+  "btnExpandAll": {
+    "message": "Expandir tudo"
+  },
+  "btnSettings": {
+    "message": "Configurações"
+  },
+  "searchPlaceholder": {
+    "message": "Pesquisar abas…"
+  },
+  "emptyState": {
+    "message": "Nenhuma aba encontrada"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "settingsClose": {
+    "message": "Fechar configurações"
+  },
+  "settingTheme": {
+    "message": "Tema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "Recuo"
+  },
+  "indentCompact": {
+    "message": "Compacto"
+  },
+  "indentNormal": {
+    "message": "Normal"
+  },
+  "indentSpacious": {
+    "message": "Espaçoso"
+  },
+  "settingFavicons": {
+    "message": "Mostrar favicons"
+  },
+  "settingAnimations": {
+    "message": "Animações"
+  },
+  "settingAutoCollapse": {
+    "message": "Recolher irmãos automaticamente"
+  },
+  "settingCollapseGroups": {
+    "message": "Recolher grupos após agrupar"
+  },
+  "settingLanguage": {
+    "message": "Idioma"
+  },
+  "sectionPanelPosition": {
+    "message": "Posição do painel"
+  },
+  "panelPositionHint": {
+    "message": "O Chrome controla de que lado o painel aparece. Use os botões abaixo para ver onde alterá-lo nas configurações do Chrome."
+  },
+  "panelLeft": {
+    "message": "Esquerda"
+  },
+  "panelRight": {
+    "message": "Direita"
+  },
+  "panelNoteLeft": {
+    "message": "Acesse as configurações do Chrome → \"Aparência\" → Posição do painel lateral → \"Mostrar à esquerda\"."
+  },
+  "panelNoteRight": {
+    "message": "Acesse as configurações do Chrome → \"Aparência\" → Posição do painel lateral → \"Mostrar à direita\"."
+  },
+  "ctxSwitchTo": {
+    "message": "Ir para aba"
+  },
+  "ctxOpenChild": {
+    "message": "Abrir aba filha"
+  },
+  "ctxDuplicate": {
+    "message": "Duplicar"
+  },
+  "ctxDetach": {
+    "message": "Separar da árvore"
+  },
+  "ctxCollapseBranch": {
+    "message": "Recolher ramificação"
+  },
+  "ctxCloseTab": {
+    "message": "Fechar aba"
+  },
+  "ctxCloseBranch": {
+    "message": "Fechar ramificação"
+  },
+  "toastGrouped": {
+    "message": "$count$ domínios agrupados alfabeticamente",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "Falha ao agrupar — tente novamente"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · por Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "Alternar barra lateral do Tree Tabs"
+  },
+  "btnPopout": {
+    "message": "Abrir painel flutuante"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "Desagrupar todas as abas"
+  },
+  "toastUngrouped": {
+    "message": "Todas as abas desagrupadas"
+  },
+  "toastNothingToUngroup": {
+    "message": "Nenhum grupo para desagrupar"
+  }
+}

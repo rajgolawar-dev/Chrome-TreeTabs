@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "將分頁以視覺化樹狀結構整理 — 子分頁、可折疊分支、拖放排序。"
+  },
+  "logoLabel": {
+    "message": "樹狀分頁"
+  },
+  "btnNewTab": {
+    "message": "新增分頁"
+  },
+  "btnGroupByDomain": {
+    "message": "依網域分組分頁（A–Z）"
+  },
+  "btnCollapseAll": {
+    "message": "全部折疊"
+  },
+  "btnExpandAll": {
+    "message": "全部展開"
+  },
+  "btnSettings": {
+    "message": "設定"
+  },
+  "searchPlaceholder": {
+    "message": "搜尋分頁…"
+  },
+  "emptyState": {
+    "message": "找不到分頁"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsClose": {
+    "message": "關閉設定"
+  },
+  "settingTheme": {
+    "message": "主題"
+  },
+  "themeLight": {
+    "message": "淺色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "縮排"
+  },
+  "indentCompact": {
+    "message": "緊湊"
+  },
+  "indentNormal": {
+    "message": "一般"
+  },
+  "indentSpacious": {
+    "message": "寬鬆"
+  },
+  "settingFavicons": {
+    "message": "顯示網站圖示"
+  },
+  "settingAnimations": {
+    "message": "動畫"
+  },
+  "settingAutoCollapse": {
+    "message": "自動折疊同層分頁"
+  },
+  "settingCollapseGroups": {
+    "message": "分組後折疊群組"
+  },
+  "settingLanguage": {
+    "message": "語言"
+  },
+  "sectionPanelPosition": {
+    "message": "面板位置"
+  },
+  "panelPositionHint": {
+    "message": "Chrome 控制面板顯示在哪一側。點擊下方按鈕，查看如何在 Chrome 設定中變更。"
+  },
+  "panelLeft": {
+    "message": "左側"
+  },
+  "panelRight": {
+    "message": "右側"
+  },
+  "panelNoteLeft": {
+    "message": "前往 Chrome 設定 → 「外觀」→ 側邊欄位置 → 「顯示於左側」。"
+  },
+  "panelNoteRight": {
+    "message": "前往 Chrome 設定 → 「外觀」→ 側邊欄位置 → 「顯示於右側」。"
+  },
+  "ctxSwitchTo": {
+    "message": "切換至分頁"
+  },
+  "ctxOpenChild": {
+    "message": "開啟子分頁"
+  },
+  "ctxDuplicate": {
+    "message": "複製"
+  },
+  "ctxDetach": {
+    "message": "從樹狀結構分離"
+  },
+  "ctxCollapseBranch": {
+    "message": "折疊分支"
+  },
+  "ctxCloseTab": {
+    "message": "關閉分頁"
+  },
+  "ctxCloseBranch": {
+    "message": "關閉分支"
+  },
+  "toastGrouped": {
+    "message": "已按字母順序分組 $count$ 個網域",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "分組失敗 — 請重試"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · 作者 Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "切換 Tree Tabs 側邊欄"
+  },
+  "btnPopout": {
+    "message": "彈出樹狀面板"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "取消所有分頁分組"
+  },
+  "toastUngrouped": {
+    "message": "已取消所有分頁分組"
+  },
+  "toastNothingToUngroup": {
+    "message": "沒有可取消的分組"
+  }
+}

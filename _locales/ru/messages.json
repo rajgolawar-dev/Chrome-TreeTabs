@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "Организуйте вкладки в виде дерева — дочерние вкладки, сворачиваемые ветви, перетаскивание."
+  },
+  "logoLabel": {
+    "message": "Tree Tabs"
+  },
+  "btnNewTab": {
+    "message": "Новая вкладка"
+  },
+  "btnGroupByDomain": {
+    "message": "Группировать вкладки по домену (А–Я)"
+  },
+  "btnCollapseAll": {
+    "message": "Свернуть всё"
+  },
+  "btnExpandAll": {
+    "message": "Развернуть всё"
+  },
+  "btnSettings": {
+    "message": "Настройки"
+  },
+  "searchPlaceholder": {
+    "message": "Поиск вкладок…"
+  },
+  "emptyState": {
+    "message": "Вкладки не найдены"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "settingsClose": {
+    "message": "Закрыть настройки"
+  },
+  "settingTheme": {
+    "message": "Тема"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "Отступ"
+  },
+  "indentCompact": {
+    "message": "Компактный"
+  },
+  "indentNormal": {
+    "message": "Обычный"
+  },
+  "indentSpacious": {
+    "message": "Просторный"
+  },
+  "settingFavicons": {
+    "message": "Показывать favicons"
+  },
+  "settingAnimations": {
+    "message": "Анимации"
+  },
+  "settingAutoCollapse": {
+    "message": "Автосворачивать соседние вкладки"
+  },
+  "settingCollapseGroups": {
+    "message": "Сворачивать группы после группировки"
+  },
+  "settingLanguage": {
+    "message": "Язык"
+  },
+  "sectionPanelPosition": {
+    "message": "Позиция панели"
+  },
+  "panelPositionHint": {
+    "message": "Chrome управляет стороной отображения панели. Нажмите кнопку ниже, чтобы узнать, где это изменить в настройках Chrome."
+  },
+  "panelLeft": {
+    "message": "Слева"
+  },
+  "panelRight": {
+    "message": "Справа"
+  },
+  "panelNoteLeft": {
+    "message": "Откройте настройки Chrome → «Внешний вид» → Положение боковой панели → «Показывать слева»."
+  },
+  "panelNoteRight": {
+    "message": "Откройте настройки Chrome → «Внешний вид» → Положение боковой панели → «Показывать справа»."
+  },
+  "ctxSwitchTo": {
+    "message": "Перейти к вкладке"
+  },
+  "ctxOpenChild": {
+    "message": "Открыть дочернюю вкладку"
+  },
+  "ctxDuplicate": {
+    "message": "Дублировать"
+  },
+  "ctxDetach": {
+    "message": "Отсоединить от дерева"
+  },
+  "ctxCollapseBranch": {
+    "message": "Свернуть ветвь"
+  },
+  "ctxCloseTab": {
+    "message": "Закрыть вкладку"
+  },
+  "ctxCloseBranch": {
+    "message": "Закрыть ветвь"
+  },
+  "toastGrouped": {
+    "message": "$count$ доменов сгруппированы по алфавиту",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "Ошибка группировки — попробуйте снова"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · автор Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "Переключить боковую панель Tree Tabs"
+  },
+  "btnPopout": {
+    "message": "Открыть во всплывающем окне"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "Разгруппировать все вкладки"
+  },
+  "toastUngrouped": {
+    "message": "Все вкладки разгруппированы"
+  },
+  "toastNothingToUngroup": {
+    "message": "Нет групп для разгруппировки"
+  }
+}

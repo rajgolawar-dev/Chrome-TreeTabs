@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "Organisiere deine Tabs als visuellen Baum — Untergeordnete Tabs, einklappbare Äste, Drag & Drop."
+  },
+  "logoLabel": {
+    "message": "Tree Tabs"
+  },
+  "btnNewTab": {
+    "message": "Neuer Tab"
+  },
+  "btnGroupByDomain": {
+    "message": "Tabs nach Domain gruppieren (A–Z)"
+  },
+  "btnCollapseAll": {
+    "message": "Alle einklappen"
+  },
+  "btnExpandAll": {
+    "message": "Alle ausklappen"
+  },
+  "btnSettings": {
+    "message": "Einstellungen"
+  },
+  "searchPlaceholder": {
+    "message": "Tabs suchen…"
+  },
+  "emptyState": {
+    "message": "Keine Tabs gefunden"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "settingsClose": {
+    "message": "Einstellungen schließen"
+  },
+  "settingTheme": {
+    "message": "Design"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "Einzug"
+  },
+  "indentCompact": {
+    "message": "Kompakt"
+  },
+  "indentNormal": {
+    "message": "Normal"
+  },
+  "indentSpacious": {
+    "message": "Geräumig"
+  },
+  "settingFavicons": {
+    "message": "Favicons anzeigen"
+  },
+  "settingAnimations": {
+    "message": "Animationen"
+  },
+  "settingAutoCollapse": {
+    "message": "Geschwister automatisch einklappen"
+  },
+  "settingCollapseGroups": {
+    "message": "Gruppen nach dem Gruppieren einklappen"
+  },
+  "settingLanguage": {
+    "message": "Sprache"
+  },
+  "sectionPanelPosition": {
+    "message": "Panel-Position"
+  },
+  "panelPositionHint": {
+    "message": "Chrome steuert, auf welcher Seite das Panel erscheint. Klicke unten, um zu sehen, wo du es in den Chrome-Einstellungen ändern kannst."
+  },
+  "panelLeft": {
+    "message": "Links"
+  },
+  "panelRight": {
+    "message": "Rechts"
+  },
+  "panelNoteLeft": {
+    "message": "Chrome-Einstellungen öffnen → „Erscheinungsbild\" → Seitenbereich-Position → „Links anzeigen\"."
+  },
+  "panelNoteRight": {
+    "message": "Chrome-Einstellungen öffnen → „Erscheinungsbild\" → Seitenbereich-Position → „Rechts anzeigen\"."
+  },
+  "ctxSwitchTo": {
+    "message": "Zum Tab wechseln"
+  },
+  "ctxOpenChild": {
+    "message": "Untergeordneten Tab öffnen"
+  },
+  "ctxDuplicate": {
+    "message": "Duplizieren"
+  },
+  "ctxDetach": {
+    "message": "Vom Baum trennen"
+  },
+  "ctxCollapseBranch": {
+    "message": "Ast einklappen"
+  },
+  "ctxCloseTab": {
+    "message": "Tab schließen"
+  },
+  "ctxCloseBranch": {
+    "message": "Ast schließen"
+  },
+  "toastGrouped": {
+    "message": "$count$ Domains alphabetisch gruppiert",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "Gruppierung fehlgeschlagen — erneut versuchen"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · von Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "Tree Tabs Seitenleiste umschalten"
+  },
+  "btnPopout": {
+    "message": "Baumfeld ausklappen"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "Gruppierung aller Tabs aufheben"
+  },
+  "toastUngrouped": {
+    "message": "Gruppierung aller Tabs aufgehoben"
+  },
+  "toastNothingToUngroup": {
+    "message": "Keine Gruppen zum Aufheben"
+  }
+}

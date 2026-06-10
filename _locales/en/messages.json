@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "Organize your tabs as a visual tree — child tabs, collapsible branches, drag & drop reordering."
+  },
+  "logoLabel": {
+    "message": "Tree Tabs"
+  },
+  "btnNewTab": {
+    "message": "New Tab"
+  },
+  "btnGroupByDomain": {
+    "message": "Group tabs by domain (A–Z)"
+  },
+  "btnCollapseAll": {
+    "message": "Collapse all"
+  },
+  "btnExpandAll": {
+    "message": "Expand all"
+  },
+  "btnSettings": {
+    "message": "Settings"
+  },
+  "searchPlaceholder": {
+    "message": "Search tabs…"
+  },
+  "emptyState": {
+    "message": "No tabs found"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "settingsClose": {
+    "message": "Close settings"
+  },
+  "settingTheme": {
+    "message": "Theme"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "Indent"
+  },
+  "indentCompact": {
+    "message": "Compact"
+  },
+  "indentNormal": {
+    "message": "Normal"
+  },
+  "indentSpacious": {
+    "message": "Spacious"
+  },
+  "settingFavicons": {
+    "message": "Show favicons"
+  },
+  "settingAnimations": {
+    "message": "Animations"
+  },
+  "settingAutoCollapse": {
+    "message": "Auto-collapse siblings"
+  },
+  "settingCollapseGroups": {
+    "message": "Collapse groups after grouping"
+  },
+  "settingLanguage": {
+    "message": "Language"
+  },
+  "sectionPanelPosition": {
+    "message": "Panel Position"
+  },
+  "panelPositionHint": {
+    "message": "Chrome controls which side the panel appears on. Use the buttons below to see exactly where to change it in Chrome settings."
+  },
+  "panelLeft": {
+    "message": "Left"
+  },
+  "panelRight": {
+    "message": "Right"
+  },
+  "panelNoteLeft": {
+    "message": "Go to Chrome settings → \"Appearance\" → Side panel position → \"Show on Left\"."
+  },
+  "panelNoteRight": {
+    "message": "Go to Chrome settings → \"Appearance\" → Side panel position → \"Show on Right\"."
+  },
+  "ctxSwitchTo": {
+    "message": "Switch to Tab"
+  },
+  "ctxOpenChild": {
+    "message": "Open Child Tab"
+  },
+  "ctxDuplicate": {
+    "message": "Duplicate"
+  },
+  "ctxDetach": {
+    "message": "Detach from Tree"
+  },
+  "ctxCollapseBranch": {
+    "message": "Collapse Branch"
+  },
+  "ctxCloseTab": {
+    "message": "Close Tab"
+  },
+  "ctxCloseBranch": {
+    "message": "Close Branch"
+  },
+  "toastGrouped": {
+    "message": "Grouped $count$ domains alphabetically",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "Grouping failed — try again"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · by Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "Toggle Tree Tabs sidebar"
+  },
+  "btnPopout": {
+    "message": "Pop out tree panel"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "Ungroup all tabs"
+  },
+  "toastUngrouped": {
+    "message": "Ungrouped all tabs"
+  },
+  "toastNothingToUngroup": {
+    "message": "No groups to ungroup"
+  }
+}

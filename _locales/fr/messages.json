@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "Organisez vos onglets en arbre visuel — onglets enfants, branches réductibles, glisser-déposer."
+  },
+  "logoLabel": {
+    "message": "Tree Tabs"
+  },
+  "btnNewTab": {
+    "message": "Nouvel onglet"
+  },
+  "btnGroupByDomain": {
+    "message": "Grouper les onglets par domaine (A–Z)"
+  },
+  "btnCollapseAll": {
+    "message": "Tout réduire"
+  },
+  "btnExpandAll": {
+    "message": "Tout développer"
+  },
+  "btnSettings": {
+    "message": "Paramètres"
+  },
+  "searchPlaceholder": {
+    "message": "Rechercher des onglets…"
+  },
+  "emptyState": {
+    "message": "Aucun onglet trouvé"
+  },
+  "settingsTitle": {
+    "message": "Paramètres"
+  },
+  "settingsClose": {
+    "message": "Fermer les paramètres"
+  },
+  "settingTheme": {
+    "message": "Thème"
+  },
+  "themeLight": {
+    "message": "Clair"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "Retrait"
+  },
+  "indentCompact": {
+    "message": "Compact"
+  },
+  "indentNormal": {
+    "message": "Normal"
+  },
+  "indentSpacious": {
+    "message": "Spacieux"
+  },
+  "settingFavicons": {
+    "message": "Afficher les favicons"
+  },
+  "settingAnimations": {
+    "message": "Animations"
+  },
+  "settingAutoCollapse": {
+    "message": "Réduire automatiquement les onglets frères"
+  },
+  "settingCollapseGroups": {
+    "message": "Réduire les groupes après le regroupement"
+  },
+  "settingLanguage": {
+    "message": "Langue"
+  },
+  "sectionPanelPosition": {
+    "message": "Position du panneau"
+  },
+  "panelPositionHint": {
+    "message": "Chrome contrôle de quel côté le panneau apparaît. Utilisez les boutons ci-dessous pour voir où le modifier dans les paramètres Chrome."
+  },
+  "panelLeft": {
+    "message": "Gauche"
+  },
+  "panelRight": {
+    "message": "Droite"
+  },
+  "panelNoteLeft": {
+    "message": "Allez dans Paramètres Chrome → « Apparence » → Position du panneau latéral → « Afficher à gauche »."
+  },
+  "panelNoteRight": {
+    "message": "Allez dans Paramètres Chrome → « Apparence » → Position du panneau latéral → « Afficher à droite »."
+  },
+  "ctxSwitchTo": {
+    "message": "Aller à l'onglet"
+  },
+  "ctxOpenChild": {
+    "message": "Ouvrir un onglet enfant"
+  },
+  "ctxDuplicate": {
+    "message": "Dupliquer"
+  },
+  "ctxDetach": {
+    "message": "Détacher de l'arbre"
+  },
+  "ctxCollapseBranch": {
+    "message": "Réduire la branche"
+  },
+  "ctxCloseTab": {
+    "message": "Fermer l'onglet"
+  },
+  "ctxCloseBranch": {
+    "message": "Fermer la branche"
+  },
+  "toastGrouped": {
+    "message": "$count$ domaines groupés alphabétiquement",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "Échec du regroupement — réessayez"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · par Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "Basculer la barre latérale Tree Tabs"
+  },
+  "btnPopout": {
+    "message": "Ouvrir en fenêtre flottante"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "Dissocier tous les onglets"
+  },
+  "toastUngrouped": {
+    "message": "Tous les onglets dissociés"
+  },
+  "toastNothingToUngroup": {
+    "message": "Aucun groupe à dissocier"
+  }
+}

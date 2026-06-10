@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "タブをビジュアルツリーとして整理 — 子タブ、折りたたみ可能なブランチ、ドラッグ＆ドロップ。"
+  },
+  "logoLabel": {
+    "message": "Tree Tabs"
+  },
+  "btnNewTab": {
+    "message": "新しいタブ"
+  },
+  "btnGroupByDomain": {
+    "message": "ドメイン別にタブをグループ化（A〜Z）"
+  },
+  "btnCollapseAll": {
+    "message": "すべて折りたたむ"
+  },
+  "btnExpandAll": {
+    "message": "すべて展開"
+  },
+  "btnSettings": {
+    "message": "設定"
+  },
+  "searchPlaceholder": {
+    "message": "タブを検索…"
+  },
+  "emptyState": {
+    "message": "タブが見つかりません"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsClose": {
+    "message": "設定を閉じる"
+  },
+  "settingTheme": {
+    "message": "テーマ"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "インデント"
+  },
+  "indentCompact": {
+    "message": "コンパクト"
+  },
+  "indentNormal": {
+    "message": "標準"
+  },
+  "indentSpacious": {
+    "message": "広め"
+  },
+  "settingFavicons": {
+    "message": "ファビコンを表示"
+  },
+  "settingAnimations": {
+    "message": "アニメーション"
+  },
+  "settingAutoCollapse": {
+    "message": "兄弟タブを自動折りたたみ"
+  },
+  "settingCollapseGroups": {
+    "message": "グループ化後にグループを折りたたむ"
+  },
+  "settingLanguage": {
+    "message": "言語"
+  },
+  "sectionPanelPosition": {
+    "message": "パネル位置"
+  },
+  "panelPositionHint": {
+    "message": "パネルの表示位置はChromeが管理しています。下のボタンで、Chromeの設定での変更場所を確認してください。"
+  },
+  "panelLeft": {
+    "message": "左"
+  },
+  "panelRight": {
+    "message": "右"
+  },
+  "panelNoteLeft": {
+    "message": "Chromeの設定 → 「デザイン」→ サイドパネルの位置 → 「左側に表示」を選択してください。"
+  },
+  "panelNoteRight": {
+    "message": "Chromeの設定 → 「デザイン」→ サイドパネルの位置 → 「右側に表示」を選択してください。"
+  },
+  "ctxSwitchTo": {
+    "message": "タブに切り替え"
+  },
+  "ctxOpenChild": {
+    "message": "子タブを開く"
+  },
+  "ctxDuplicate": {
+    "message": "複製"
+  },
+  "ctxDetach": {
+    "message": "ツリーから切り離す"
+  },
+  "ctxCollapseBranch": {
+    "message": "ブランチを折りたたむ"
+  },
+  "ctxCloseTab": {
+    "message": "タブを閉じる"
+  },
+  "ctxCloseBranch": {
+    "message": "ブランチを閉じる"
+  },
+  "toastGrouped": {
+    "message": "$count$ 件のドメインをアルファベット順にグループ化しました",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "グループ化に失敗しました — もう一度お試しください"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · Raj Golawar 作"
+  },
+  "cmdToggleSidebar": {
+    "message": "Tree Tabsサイドバーを切り替え"
+  },
+  "btnPopout": {
+    "message": "パネルをポップアウト"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "すべてのタブのグループ化を解除"
+  },
+  "toastUngrouped": {
+    "message": "すべてのタブのグループ化を解除しました"
+  },
+  "toastNothingToUngroup": {
+    "message": "解除するグループがありません"
+  }
+}
