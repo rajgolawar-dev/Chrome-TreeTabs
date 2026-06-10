@@ -6,7 +6,7 @@
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-4f8ef7)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 [![Chrome](https://img.shields.io/badge/Chrome-114%2B-4f8ef7?logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]([#license](https://github.com/rajgolawar-dev/Chrome-TreeTabs/blob/init/LICENSE.md))
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/rajgolawar-dev/Chrome-TreeTabs/blob/init/LICENSE.md)
 [![Languages](https://img.shields.io/badge/i18n-10%20languages-orange)](#-languages)
 [![Version](https://img.shields.io/badge/version-1.0.3-blue)](#)
 
