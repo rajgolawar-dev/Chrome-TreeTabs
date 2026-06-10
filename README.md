@@ -140,7 +140,7 @@ Adding a translation: copy `_locales/en/messages.json` into a new locale folder 
 
 ## 📄 License
 
-Released under the [MIT License](#). © 2026 Raj Golawar.
+Released under the [MIT License](LICENSE.md). © 2026 Raj Golawar.
 
 ---
 
