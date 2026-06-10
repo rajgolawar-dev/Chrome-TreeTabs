@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.3",
+  "description": "__MSG_extDesc__",
+  "author": "Raj Golawar",
+  "default_locale": "en",
+  "permissions": ["tabs", "storage", "contextMenus", "sidePanel", "tabGroups"],
+  "side_panel": { "default_path": "sidebar.html" },
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Tree Tabs",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "toggle-sidebar": {
+      "suggested_key": { "default": "Alt+T" },
+      "description": "__MSG_cmdToggleSidebar__"
+    },
+    "popout-panel": {
+      "suggested_key": { "default": "Alt+P" },
+      "description": "Pop out Tree Tabs as a window"
+    }
+  }
+}

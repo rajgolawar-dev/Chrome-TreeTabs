@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Tree Tabs"
+  },
+  "extDesc": {
+    "message": "将标签页以可视化树形结构整理 — 子标签、可折叠分支、拖放排序。"
+  },
+  "logoLabel": {
+    "message": "树形标签"
+  },
+  "btnNewTab": {
+    "message": "新标签页"
+  },
+  "btnGroupByDomain": {
+    "message": "按域名分组标签（A–Z）"
+  },
+  "btnCollapseAll": {
+    "message": "全部折叠"
+  },
+  "btnExpandAll": {
+    "message": "全部展开"
+  },
+  "btnSettings": {
+    "message": "设置"
+  },
+  "searchPlaceholder": {
+    "message": "搜索标签页…"
+  },
+  "emptyState": {
+    "message": "未找到标签页"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "settingsClose": {
+    "message": "关闭设置"
+  },
+  "settingTheme": {
+    "message": "主题"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeAmoled": {
+    "message": "AMOLED"
+  },
+  "settingIndent": {
+    "message": "缩进"
+  },
+  "indentCompact": {
+    "message": "紧凑"
+  },
+  "indentNormal": {
+    "message": "普通"
+  },
+  "indentSpacious": {
+    "message": "宽松"
+  },
+  "settingFavicons": {
+    "message": "显示网站图标"
+  },
+  "settingAnimations": {
+    "message": "动画"
+  },
+  "settingAutoCollapse": {
+    "message": "自动折叠同级标签"
+  },
+  "settingCollapseGroups": {
+    "message": "分组后折叠分组"
+  },
+  "settingLanguage": {
+    "message": "语言"
+  },
+  "sectionPanelPosition": {
+    "message": "面板位置"
+  },
+  "panelPositionHint": {
+    "message": "Chrome 控制面板显示在哪一侧。点击下方按钮，查看如何在 Chrome 设置中更改。"
+  },
+  "panelLeft": {
+    "message": "左侧"
+  },
+  "panelRight": {
+    "message": "右侧"
+  },
+  "panelNoteLeft": {
+    "message": "前往 Chrome 设置 → \"外观\" → 侧边栏位置 → \"在左侧显示\"。"
+  },
+  "panelNoteRight": {
+    "message": "前往 Chrome 设置 → \"外观\" → 侧边栏位置 → \"在右侧显示\"。"
+  },
+  "ctxSwitchTo": {
+    "message": "切换到标签页"
+  },
+  "ctxOpenChild": {
+    "message": "打开子标签页"
+  },
+  "ctxDuplicate": {
+    "message": "复制"
+  },
+  "ctxDetach": {
+    "message": "从树中分离"
+  },
+  "ctxCollapseBranch": {
+    "message": "折叠分支"
+  },
+  "ctxCloseTab": {
+    "message": "关闭标签页"
+  },
+  "ctxCloseBranch": {
+    "message": "关闭分支"
+  },
+  "toastGrouped": {
+    "message": "已按字母顺序分组 $count$ 个域名",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "toastGroupFailed": {
+    "message": "分组失败 — 请重试"
+  },
+  "settingsFooter": {
+    "message": "Tree Tabs · 作者 Raj Golawar"
+  },
+  "cmdToggleSidebar": {
+    "message": "切换 Tree Tabs 侧边栏"
+  },
+  "btnPopout": {
+    "message": "弹出树形面板"
+  },
+  "popoutTitle": {
+    "message": "Tree Tabs"
+  },
+  "popoutShortcut": {
+    "message": "Alt+P"
+  },
+  "btnUngroup": {
+    "message": "取消所有标签分组"
+  },
+  "toastUngrouped": {
+    "message": "已取消所有标签分组"
+  },
+  "toastNothingToUngroup": {
+    "message": "没有可取消的分组"
+  }
+}
