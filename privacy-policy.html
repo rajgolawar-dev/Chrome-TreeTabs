@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Tree Tabs</title>
+<style>
+  /* ── Tokens ── */
+  :root {
+    --accent:      #4f8ef7;
+    --accent-bg:   #eff6ff;
+    --accent-bdr:  #bfdbfe;
+    --bg:          #ffffff;
+    --bg-2:        #f9fafb;
+    --bg-3:        #f3f4f6;
+    --text:        #111827;
+    --text-2:      #374151;
+    --text-3:      #6b7280;
+    --border:      #e5e7eb;
+    --green:       #16a34a;
+    --green-bg:    #f0fdf4;
+    --green-bdr:   #bbf7d0;
+    --red:         #dc2626;
+    --red-bg:      #fef2f2;
+    --red-bdr:     #fecaca;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --accent:      #60a5fa;
+      --accent-bg:   #1e3a5f;
+      --accent-bdr:  #1d4ed8;
+      --bg:          #0f172a;
+      --bg-2:        #1e293b;
+      --bg-3:        #334155;
+      --text:        #f1f5f9;
+      --text-2:      #cbd5e1;
+      --text-3:      #94a3b8;
+      --border:      #334155;
+      --green:       #4ade80;
+      --green-bg:    #052e16;
+      --green-bdr:   #166534;
+      --red:         #f87171;
+      --red-bg:      #2d0a0a;
+      --red-bdr:     #7f1d1d;
+    }
+  }
+
+  /* ── Reset ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    font-size: 15px; line-height: 1.75; color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 24px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+  }
+  .nav-brand {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14px; font-weight: 600; color: var(--text);
+    text-decoration: none;
+  }
+  .nav-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: linear-gradient(135deg, #1e3a5f, #1d4ed8);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .nav-icon svg { display: block; }
+  .nav-link {
+    font-size: 13px; color: var(--accent); text-decoration: none;
+    padding: 5px 12px; border: 1px solid var(--accent-bdr);
+    border-radius: 20px; background: var(--accent-bg);
+    transition: opacity .15s;
+  }
+  .nav-link:hover { opacity: .8; }
+
+  /* ── Hero ── */
+  .hero {
+    padding: 56px 24px 40px;
+    max-width: 760px; margin: 0 auto;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--accent-bg); color: var(--accent);
+    border: 1px solid var(--accent-bdr); border-radius: 20px;
+    font-size: 12px; font-weight: 600; padding: 3px 12px;
+    margin-bottom: 16px; letter-spacing: .03em;
+  }
+  .hero h1 { font-size: 32px; font-weight: 700; margin-bottom: 10px; }
+  .hero p { color: var(--text-3); font-size: 14px; }
+
+  /* ── Summary card ── */
+  .summary-card {
+    max-width: 760px; margin: 32px auto;
+    padding: 0 24px;
+  }
+  .card {
+    background: var(--green-bg);
+    border: 1px solid var(--green-bdr);
+    border-radius: 12px; padding: 18px 22px;
+    display: flex; gap: 14px; align-items: flex-start;
+  }
+  .card-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+  .card strong { color: var(--green); }
+  .card p { font-size: 14px; color: var(--text-2); margin: 0; }
+
+  /* ── Main content ── */
+  main {
+    max-width: 760px; margin: 0 auto;
+    padding: 8px 24px 80px;
+  }
+
+  h2 {
+    font-size: 18px; font-weight: 600;
+    margin: 44px 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 10px;
+  }
+  h2 .section-icon {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: var(--accent-bg); border: 1px solid var(--accent-bdr);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; flex-shrink: 0;
+  }
+
+  p { margin-bottom: 14px; color: var(--text-2); }
+
+  ul { margin: 0 0 16px 0; padding: 0; list-style: none; }
+  ul li {
+    padding: 8px 0 8px 28px;
+    position: relative;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-2); font-size: 14px;
+  }
+  ul li:last-child { border-bottom: none; }
+  ul li::before {
+    content: '✗';
+    position: absolute; left: 0;
+    color: var(--red); font-weight: 700; font-size: 13px;
+  }
+
+  /* ── Tables ── */
+  .table-wrap { overflow-x: auto; margin: 0 0 20px; border-radius: 10px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead tr { background: var(--bg-2); }
+  th {
+    padding: 11px 16px; text-align: left;
+    font-weight: 600; color: var(--text-3);
+    font-size: 12px; letter-spacing: .04em; text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+  }
+  td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--bg-2); }
+  .never {
+    color: var(--green); font-weight: 600; font-size: 13px;
+    display: inline-flex; align-items: center; gap: 4px;
+  }
+  .never::before { content: '✓'; }
+
+  /* ── Inline code ── */
+  code {
+    background: var(--bg-3); color: var(--accent);
+    padding: 2px 7px; border-radius: 5px;
+    font-size: 13px; font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    border: 1px solid var(--border);
+  }
+
+  /* ── Callout box ── */
+  .callout {
+    background: var(--bg-2); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px; font-size: 14px;
+    color: var(--text-2); margin-bottom: 20px;
+  }
+
+  /* ── Contact ── */
+  .contact-card {
+    background: var(--bg-2); border: 1px solid var(--border);
+    border-radius: 10px; padding: 18px 22px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 12px;
+  }
+  .contact-card strong { font-size: 15px; }
+  .contact-card p { margin: 0; font-size: 13px; color: var(--text-3); }
+  .contact-link {
+    font-size: 13px; color: var(--accent);
+    text-decoration: none; padding: 7px 16px;
+    border: 1px solid var(--accent-bdr); border-radius: 20px;
+    background: var(--accent-bg); white-space: nowrap;
+    transition: opacity .15s;
+  }
+  .contact-link:hover { opacity: .8; }
+
+  /* ── Footer ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 24px;
+    text-align: center;
+    font-size: 13px; color: var(--text-3);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .dot { margin: 0 8px; opacity: .4; }
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-brand" href="https://github.com/rajgolawar/tree-tabs">
+    <div class="nav-icon">
+      <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+        <circle cx="3"  cy="3"  r="2.3" fill="white" opacity=".9"/>
+        <circle cx="3"  cy="9"  r="2.3" fill="white" opacity=".55"/>
+        <circle cx="3"  cy="15" r="2.3" fill="white" opacity=".35"/>
+        <circle cx="11" cy="9"  r="2.3" fill="#60a5fa" opacity=".95"/>
+        <circle cx="11" cy="15" r="2.3" fill="#60a5fa" opacity=".55"/>
+        <line x1="5.2" y1="3" x2="9" y2="9" stroke="white" stroke-width="1" opacity=".3"/>
+        <line x1="13.2" y1="9" x2="15.5" y2="15" stroke="#60a5fa" stroke-width="1" opacity=".35"/>
+      </svg>
+    </div>
+    Tree Tabs
+  </a>
+  <a class="nav-link" href="https://github.com/rajgolawar/tree-tabs" target="_blank">
+    ← Back to repo
+  </a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-badge">
+    <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+      <circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.4"/>
+      <line x1="6" y1="4" x2="6" y2="7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="6" cy="9" r=".6" fill="currentColor"/>
+    </svg>
+    Chrome Extension · Legal
+  </div>
+  <h1>Privacy Policy</h1>
+  <p>Tree Tabs &nbsp;·&nbsp; by Raj Golawar &nbsp;·&nbsp; Last updated: June 2026</p>
+</div>
+
+<!-- Summary card -->
+<div class="summary-card">
+  <div class="card">
+    <div class="card-icon">🔒</div>
+    <p><strong>Short version:</strong> Tree Tabs collects no personal data, sends nothing to any server, and stores only the information needed to remember your tab tree and settings — entirely on your own device. No accounts. No tracking. No ads.</p>
+  </div>
+</div>
+
+<main>
+
+  <h2><span class="section-icon">📋</span> Overview</h2>
+  <p>
+    Tree Tabs is a Chrome browser extension that organises your open tabs into a collapsible,
+    searchable tree structure inside Chrome's side panel. This policy explains what data the
+    extension accesses, why, and how it is handled.
+  </p>
+
+  <h2><span class="section-icon">📂</span> Data We Access</h2>
+  <p>Tree Tabs accesses only what is necessary to function. Nothing is ever transmitted off your device.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Why</th><th>Stored</th><th>Shared</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tab titles, URLs, favicons</td>
+          <td>To display the tab tree and build parent–child relationships</td>
+          <td>Locally on device</td>
+          <td><span class="never">Never</span></td>
+        </tr>
+        <tr>
+          <td>Tab opener relationships</td>
+          <td>To automatically nest child tabs under the tab that opened them</td>
+          <td>Locally on device</td>
+          <td><span class="never">Never</span></td>
+        </tr>
+        <tr>
+          <td>User settings<br><small style="color:var(--text-3)">theme, indent, language, etc.</small></td>
+          <td>To remember your preferences across sessions</td>
+          <td>Locally on device</td>
+          <td><span class="never">Never</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2><span class="section-icon">🚫</span> Data We Do NOT Collect</h2>
+  <ul>
+    <li>Personal information (name, email, account details)</li>
+    <li>Browsing history beyond your current open tabs</li>
+    <li>Analytics, telemetry, or crash reports</li>
+    <li>Cookies or tracking identifiers of any kind</li>
+    <li>Data transmitted to any external server — ever</li>
+  </ul>
+
+  <h2><span class="section-icon">🔑</span> Permissions Explained</h2>
+  <p>Every permission is limited to a specific feature. No permission is requested speculatively.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Permission</th><th>Why it is required</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>tabs</code></td>
+          <td>List, monitor, activate, create, and close tabs — the core function of the extension</td>
+        </tr>
+        <tr>
+          <td><code>storage</code></td>
+          <td>Save the tab tree structure and user settings locally in the browser via <code>chrome.storage.local</code></td>
+        </tr>
+        <tr>
+          <td><code>sidePanel</code></td>
+          <td>Render the tree UI inside Chrome's native side panel</td>
+        </tr>
+        <tr>
+          <td><code>tabGroups</code></td>
+          <td>Create, label, and remove Chrome Tab Groups when using Group by domain and Ungroup features</td>
+        </tr>
+        <tr>
+          <td><code>contextMenus</code></td>
+          <td>Show a right-click context menu on tab items (Switch To, Close, Duplicate, etc.)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2><span class="section-icon">💾</span> Local Storage</h2>
+  <p>
+    All data persisted by Tree Tabs is stored using <code>chrome.storage.local</code> —
+    a sandboxed, on-device store that is private to the extension and never transmitted anywhere.
+  </p>
+  <div class="callout">
+    You can delete all stored data at any time: open <code>chrome://extensions</code> →
+    find Tree Tabs → click <strong>Details</strong> → click <strong>Clear data</strong>.
+    Alternatively, removing the extension deletes all its stored data immediately.
+  </div>
+
+  <h2><span class="section-icon">🤝</span> Third-Party Services</h2>
+  <p>
+    Tree Tabs uses no third-party services, SDKs, analytics platforms, advertising networks,
+    or external APIs of any kind. There are no requests to any server outside of Chrome's
+    built-in extension APIs.
+  </p>
+
+  <h2><span class="section-icon">👶</span> Children's Privacy</h2>
+  <p>
+    This extension is not directed at children under 13 and does not knowingly collect
+    any information from them.
+  </p>
+
+  <h2><span class="section-icon">🔄</span> Changes to This Policy</h2>
+  <p>
+    If this policy changes, the updated version will be published at this URL and the
+    "Last updated" date in the header will be revised. Continued use of the extension
+    after changes are posted constitutes acceptance of the updated policy.
+  </p>
+
+  <h2><span class="section-icon">✉️</span> Contact</h2>
+  <div class="contact-card">
+    <div>
+      <strong>Raj Golawar</strong>
+      <p>Questions about this privacy policy</p>
+    </div>
+    <a class="contact-link" href="https://github.com/rajgolawar/tree-tabs/issues" target="_blank">
+      Open an issue on GitHub →
+    </a>
+  </div>
+
+</main>
+
+<footer>
+  <p>
+    Tree Tabs
+    <span class="dot">·</span>
+    © 2026 Raj Golawar
+    <span class="dot">·</span>
+    <a href="https://github.com/rajgolawar/tree-tabs" target="_blank">GitHub</a>
+    <span class="dot">·</span>
+    <a href="https://chrome.google.com/webstore" target="_blank">Chrome Web Store</a>
+  </p>
+</footer>
+
+</body>
+</html>
