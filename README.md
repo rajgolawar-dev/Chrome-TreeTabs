@@ -36,7 +36,7 @@ Bringing the beloved Firefox tree-style tab experience to Chrome.
 ## 📦 Installation
 
 ### From the Chrome Web Store
-> *Coming soon — pending review.*
+> [Chrome store](https://chromewebstore.google.com/detail/jmgkolipococcfbkglemjmhneealddif)
 
 ### From source (developer mode)
 
